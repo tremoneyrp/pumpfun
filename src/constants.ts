@@ -13,7 +13,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 export const EXPLORER_URL = 'https://solscan.io/'
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'https://pumpcasino.vercel.app/'
+export const PLATFORM_SHARABLE_URL = 'https://pumpcoon.vercel.app/'
 
 // Creator fee (in %)
 export const PLATFORM_CREATOR_FEE = 0.05 // 5% (1/100 = 0.01)  !!max 5%!!
@@ -51,8 +51,8 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Test',
-    symbol: 'TEST',
+    name: 'Pump',
+    symbol: 'PUMP',
     image: '/fakemoney.png',
     baseWager: 1e9,
     decimals: 9,
@@ -62,15 +62,15 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
 
 /** HTML to display to user that they need to accept in order to continue */
 export const TOS_HTML = `
-  <p><b>1. Age Requirement:</b> Must be at least 18 years old.</p>
-  <p><b>2. Legal Compliance:</b> Follow local laws responsibly.</p>
-  <p><b>3. Risk Acknowledgement:</b> Games involve risk; no guaranteed winnings.</p>
-  <p><b>4. No Warranty:</b> Games provided "as is"; operate randomly.</p>
-  <p><b>5. Limitation of Liability:</b> We're not liable for damages.</p>
-  <p><b>6. Licensing Disclaimer:</b> Not a licensed casino; for simulation only.</p>
-  <p><b>7. Fair Play:</b> Games are conducted fairly and transparently.</p>
-  <p><b>8. Data Privacy:</b> Your privacy is important to us.</p>
-  <p><b>9. Responsible Gaming:</b> Play responsibly; seek help if needed.</p>
+  <p><b>1. Coon Age Requirement:</b> Must be at least 18 years old.</p>
+  <p><b>2. Coon Compliance:</b> Follow local laws responsibly.</p>
+  <p><b>3. Coon Acknowledgement:</b> Games involve risk; no guaranteed winnings.</p>
+  <p><b>4. No Coon Warranty:</b> Games provided "as is"; operate randomly.</p>
+  <p><b>5. Coon Limitation of Liability:</b> We're not liable for damages.</p>
+  <p><b>6. Coon Licensing Disclaimer:</b> Not a licensed casino; for simulation only.</p>
+  <p><b>7. Coon Fair Play:</b> Games are conducted fairly and transparently.</p>
+  <p><b>8. Coon Data Privacy:</b> Your privacy is important to us.</p>
+  <p><b>9. Coon Responsible Gaming:</b> Play responsibly; seek coon help if needed.</p>
 `
 
 /**
