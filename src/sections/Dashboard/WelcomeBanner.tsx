@@ -102,19 +102,19 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Pump.Fun Casino</h1>
+        <h1>Welcome to PumpCoon Casino</h1>
         <p>
           A fair, simple and decentralized casino DAO on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://t.me/', '_blank')}>
+        <button onClick={() => window.open('https://t.me/+LxjtUEIkE4tlM2U0', '_blank')}>
           🚀 Telegram
         </button>
         <button onClick={() => window.open('https://pump.fun', '_blank')}>
-          👨‍💻 Buy $FPC
+          👨‍💻 Buy $PCP
         </button>
-        <button onClick={() => window.open('https://twitter.com', '_blank')}>
+        <button onClick={() => window.open('https://x.com/casualxsol', '_blank')}>
           💬 Twitter
         </button>
       </Buttons>
